@@ -37,9 +37,12 @@ A real-time image enhancement web application built using Flask and OpenCV, powe
 ## Folder Structure
 Dehaze/
 ├── backend.py           # Main Flask backend script
+
 ├── templates/
 │   └── index.html       # Frontend upload/download interface
+
 ├── Images/              # Sample hazy images for testing
+
 └── README.md            # Project information(this file)
 
 ---

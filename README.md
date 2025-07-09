@@ -35,30 +35,37 @@ A real-time image enhancement web application built using Flask and OpenCV, powe
 ---
 
 ## Folder Structure
-
 Dehaze/
 ├── backend.py           # Main Flask backend script
 ├── templates/
 │   └── index.html       # Frontend upload/download interface
 ├── Images/              # Sample hazy images for testing
-└── README.md            # Project documentation (this file)
+└── README.md            # Project information(this file)
 
 ---
 
 ## How to Run Locally
 
-1. Clone the Repository:
+1. Clone the Repository
+```bash
 git clone https://github.com/your-username/Dehaze.git
 cd Dehaze
+```
 
-2. Install Dependencies:
+2. Install Dependencies
+```bash
 pip install flask opencv-python numpy
+```
 
-3. Run the App:
+3. Run the App
+```bash
 python backend.py
+```
 
-4. Open in Your Browser:
+4. Open in Your Browser
+```
 http://127.0.0.1:5000
+```
 
 ---
 
